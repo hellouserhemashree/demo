@@ -1,0 +1,187 @@
+.header{ 
+    text-align: right; 
+    line-height: 35px; /* CHECK FOR HEIGHT*/
+  }
+
+  
+  .nav {
+    background-color:#2761be; 
+    padding: 10px;
+  }
+
+  
+  .nav a {
+    color: white; 
+    text-decoration: none; /* Remove underlines from the links */
+    margin-right: 30px; 
+  }
+ 
+
+  
+  
+  
+  body {
+    margin: 0;
+  }
+  .top-left-text {
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 2px;
+    margin-left: 5px; 
+    height: 35px; 
+    color: white;
+    padding: 5px; 
+  }
+
+  .boxmodel {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2px;
+    padding-left: -2%;
+    
+    
+}
+
+.boxmodel i,a {
+    font-size: 18px;
+    margin-right: 2px;
+    color:gray;
+}
+
+.content-box {
+    width: 250px;
+    height: 500px;
+    background-color: #fcfcfc; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    margin-left: 120px;
+    margin-top: 2%;
+    border-radius: 8px;
+}
+
+  .boxmodel i:hover {
+    color: rgb(38, 33, 209); 
+    border-radius: 50%; /* Add a border-radius for rounded corners on hover */
+  }
+
+  .boxmodel a:hover {
+    color:  rgb(38, 33, 209); 
+    background-color: beige;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px; /* Add a border-radius for rounded corners on hover */
+  }
+
+  .additional-box {
+    width: 903px;
+    height: 540px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #1894ac;
+    margin-left: 30%;  
+    margin-top: -530px; 
+    border-radius: 8px;
+  
+  }
+  
+  #top {
+    text-align: justify;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    margin-left: 10px;
+    gap: 20px;
+  }
+  
+  .box {
+    width: 150px;
+    height: 100px;
+    border: 2px solid #1d16e3;
+    margin-right: 25px;
+  }
+  
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  
+  /* Define styles for the new boxes */
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    margin-left: 55px;
+  }  
+
+.green {
+  background-color: rgb(31, 87, 208); /* Adjust the color as needed */
+}
+
+.blue {
+  background-color: blue; /* Adjust the color as needed */
+}
+
+form{
+  display:flex;
+  flex-wrap:wrap;
+  font-size: larger;
+}
+  
+/* Additional CSS for the new box */
+.new-box {
+  margin-top: 50px;
+  text-align: center;
+  
+}
+
+.new-box h4 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.new-box .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.new-box .box {
+  width: 140%;
+  height: 250px;
+  border: 2px solid #1d16e3;
+  margin-right: 0px;
+  margin: left 10px; ;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.new-box .paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+}
+
+.new-box p {
+  margin: 0;
+  text-align: left;
+}
+
+
+
+
+  
+  
